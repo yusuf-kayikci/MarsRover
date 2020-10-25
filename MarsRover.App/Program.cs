@@ -34,11 +34,11 @@ namespace MarsRover.App
 
             //Create messages
             var message1 = new Message("LMLMLMLMM");
-            var message2 = new Message("MMRMMRcRRM");
+            var message2 = new Message("MMRMMRMRRM");
 
 
 
-            //Company start to listen for rover final position
+            //Company start to listen for rover final position            
             spaceCompany.Subscribe(rover1);
             spaceCompany.Subscribe(rover2);
 
