@@ -7,7 +7,7 @@ using System.Text;
 
 namespace MarsRover.App.Commands
 {
-    public static class CommandFactory
+    public class CommandFactory
     {
         public static ICommand Create(MovementType movementType)
         {

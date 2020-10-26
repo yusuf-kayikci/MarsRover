@@ -29,7 +29,6 @@ namespace MarsRover.App.Model
                 CommandFactory.Create(m.nextMovement).UpdatePosition(_position);
             }
             OnStop(_position);
-
         }
 
         public string GetFinalPosition()
